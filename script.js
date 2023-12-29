@@ -1,7 +1,7 @@
 const bar=document.querySelector('#bar')
 const cross=document.querySelector('#cross')
 const navlink = document.querySelector('.navbars')
-const heroField=document.querySelector('.hero-container')
+const heroField=document.querySelector('.cancel')
 
 bar.addEventListener('click',()=>{
     navlink.classList.remove('deactive');
