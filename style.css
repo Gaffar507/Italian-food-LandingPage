@@ -1039,7 +1039,10 @@ body{
         height: 90vh;
     }
     .hero-container{
-        height: 100vh;
+        height: 90vh;
+    }
+    .hero-container h1{
+        font-size: 3.5rem;
     }
     .foods-items-container{
         height: 80vh;
@@ -1057,13 +1060,13 @@ body{
     .leafs>:nth-child(1){
         width: 5rem;
         right: 3rem;
-        top: -4rem;
+        top: -8rem;
         rotate: 28deg;
     }
     .leafs>:nth-child(3){
         width: 4rem;
         left: 0rem;
-        top: 2rem;
+        top: 0rem;
         rotate: 40deg;
     }
     .leafs>:nth-child(2){
@@ -1096,5 +1099,8 @@ body{
         width: 4rem;
         top: 34rem;
         left: 6rem;
+    }
+    .contact-middle input{
+        margin-bottom: 1rem;
     }
  }
