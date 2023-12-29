@@ -136,7 +136,7 @@ body{
     font-weight: 200;
     text-shadow: 2px 2px 1px rgb(0, 0, 0);
     background-color: #00000042;
-    border-radius: 10rem;
+    border-radius: 2rem;
     padding:0 1rem;
 }
 .description{
@@ -975,6 +975,9 @@ body{
     .hero-container{
         height: 80vh;
     }
+    .hero-container h1 {
+        padding: 0;
+    }
     .foods-items-container{
         height: 65vh;
     }
@@ -1037,7 +1040,6 @@ body{
     }
     .hero-container{
         height: 100vh;
-
     }
     .foods-items-container{
         height: 80vh;
